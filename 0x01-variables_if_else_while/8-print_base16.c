@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
- * main - Prints all numbers of base 16 in lowercase
+ * main - Print all base sixteen numbers in lowecase followed by a new line
  *
  * Return: Always 0 (Success)
  */
