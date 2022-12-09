@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
- * main - print all number of base16 in lowercase
+ * main - print all numbers in hexademcimal binary
  *
  * Return: Always 0 (Success)
  */
