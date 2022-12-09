@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * Main - Variable n to run different value every time the program is run
+ * main - main function to generate random numbers
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
