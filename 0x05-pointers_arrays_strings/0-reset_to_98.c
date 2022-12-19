@@ -1,15 +1,13 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
-* main -  takes a pointer to an int as parameter and updates the value to 98
-* By Adekunle Leo
-* Return: Always 0 (Success)
-*/
+ * reset_to_98 - update pointer value to 98
+ * @n: parameter to be provided
+ * Return: Always 0 (Success)
+ */
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
-
-	return 0;
 }
-
