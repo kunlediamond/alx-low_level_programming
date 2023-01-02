@@ -9,13 +9,17 @@
  *
  * Return: a pointer to the byte
  */
-
 char *_strpbrk(char *s, char *accept)
 {
-for (int i = 0; i < strlen(s); i++)
-{
-if (strchr(accept, s[i]))
-return (&s[i]);
-}
-return (NULL);
+	int i;
+		while (*s)
+		{
+			for (i = 0; accept[i]; i++)
+			{
+				if (*s == accept[i])
+					return (s);
+			}
+			s++;
+		}
+	return (NULL);
 }
